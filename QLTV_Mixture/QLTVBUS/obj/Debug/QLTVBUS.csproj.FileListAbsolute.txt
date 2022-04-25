@@ -1,0 +1,32 @@
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVBUS\bin\Debug\QLTVBUS.exe.config
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVBUS\bin\Debug\QLTVBUS.exe
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVBUS\bin\Debug\QLTVBUS.pdb
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVBUS\bin\Debug\QLTVDAL.exe
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVBUS\bin\Debug\QLTVDTO.exe
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVBUS\bin\Debug\QLTVDAL.pdb
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVBUS\bin\Debug\QLTVDAL.exe.config
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVBUS\bin\Debug\QLTVDTO.pdb
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVBUS\bin\Debug\QLTVDTO.exe.config
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVBUS\obj\Debug\QLTVBUS.csprojAssemblyReference.cache
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVBUS\obj\Debug\QLTVBUS.Properties.Resources.resources
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVBUS\obj\Debug\QLTVBUS.csproj.GenerateResource.cache
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVBUS\obj\Debug\QLTVBUS.csproj.CoreCompileInputs.cache
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVBUS\obj\Debug\QLTVBUS.csproj.CopyComplete
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVBUS\obj\Debug\QLTVBUS.exe
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVBUS\obj\Debug\QLTVBUS.pdb
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVBUS\bin\Debug\QLTVBUS.exe.config
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVBUS\bin\Debug\QLTVBUS.exe
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVBUS\bin\Debug\QLTVBUS.pdb
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVBUS\bin\Debug\QLTVDAL.exe
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVBUS\bin\Debug\QLTVDTO.exe
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVBUS\bin\Debug\QLTVDAL.pdb
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVBUS\bin\Debug\QLTVDAL.exe.config
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVBUS\bin\Debug\QLTVDTO.pdb
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVBUS\bin\Debug\QLTVDTO.exe.config
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVBUS\obj\Debug\QLTVBUS.csprojAssemblyReference.cache
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVBUS\obj\Debug\QLTVBUS.Properties.Resources.resources
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVBUS\obj\Debug\QLTVBUS.csproj.GenerateResource.cache
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVBUS\obj\Debug\QLTVBUS.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVBUS\obj\Debug\QLTVBUS.csproj.CopyComplete
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVBUS\obj\Debug\QLTVBUS.exe
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVBUS\obj\Debug\QLTVBUS.pdb

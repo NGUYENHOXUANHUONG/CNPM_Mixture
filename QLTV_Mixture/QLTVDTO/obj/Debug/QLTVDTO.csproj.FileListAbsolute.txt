@@ -1,0 +1,18 @@
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVDTO\bin\Debug\QLTVDTO.exe.config
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVDTO\bin\Debug\QLTVDTO.exe
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVDTO\bin\Debug\QLTVDTO.pdb
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVDTO\obj\Debug\QLTVDTO.csprojAssemblyReference.cache
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVDTO\obj\Debug\QLTVDTO.Properties.Resources.resources
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVDTO\obj\Debug\QLTVDTO.csproj.GenerateResource.cache
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVDTO\obj\Debug\QLTVDTO.csproj.CoreCompileInputs.cache
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVDTO\obj\Debug\QLTVDTO.exe
+D:\Baitap\nmcnpm\QLTV_Mixture\QLTV_Mixture\QLTVDTO\obj\Debug\QLTVDTO.pdb
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVDTO\bin\Debug\QLTVDTO.exe.config
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVDTO\bin\Debug\QLTVDTO.exe
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVDTO\bin\Debug\QLTVDTO.pdb
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVDTO\obj\Debug\QLTVDTO.csprojAssemblyReference.cache
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVDTO\obj\Debug\QLTVDTO.Properties.Resources.resources
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVDTO\obj\Debug\QLTVDTO.csproj.GenerateResource.cache
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVDTO\obj\Debug\QLTVDTO.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVDTO\obj\Debug\QLTVDTO.exe
+C:\Users\HP\OneDrive - Hochiminh City University of Education\Thuy_Anh\Tai_Lieu_Hoc_Tap\2_2_CNPM_TTN\QLTV_Mixture\QLTV_Mixture\QLTVDTO\obj\Debug\QLTVDTO.pdb
