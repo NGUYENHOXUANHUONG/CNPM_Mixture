@@ -39,16 +39,16 @@
             this.txtUser = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pbBack = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBack)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackgroundImage = global::QLTV_Mixture.Properties.Resources.umhum;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.pbBack);
             this.panel1.Controls.Add(this.guna2TextBox2);
             this.panel1.Controls.Add(this.guna2TextBox1);
             this.panel1.Controls.Add(this.txtUser);
@@ -80,7 +80,7 @@
             this.btnCapnhat.Image = ((System.Drawing.Image)(resources.GetObject("btnCapnhat.Image")));
             this.btnCapnhat.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnCapnhat.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnCapnhat.Location = new System.Drawing.Point(288, 383);
+            this.btnCapnhat.Location = new System.Drawing.Point(283, 383);
             this.btnCapnhat.Name = "btnCapnhat";
             this.btnCapnhat.Size = new System.Drawing.Size(100, 33);
             this.btnCapnhat.TabIndex = 64;
@@ -103,7 +103,7 @@
             this.btnTaomoi.Image = ((System.Drawing.Image)(resources.GetObject("btnTaomoi.Image")));
             this.btnTaomoi.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnTaomoi.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnTaomoi.Location = new System.Drawing.Point(422, 383);
+            this.btnTaomoi.Location = new System.Drawing.Point(417, 383);
             this.btnTaomoi.Name = "btnTaomoi";
             this.btnTaomoi.Size = new System.Drawing.Size(100, 33);
             this.btnTaomoi.TabIndex = 62;
@@ -130,9 +130,9 @@
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(303, 125);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 17);
+            this.label2.Size = new System.Drawing.Size(116, 17);
             this.label2.TabIndex = 65;
-            this.label2.Text = "Mật khẩu cũ";
+            this.label2.Text = "Mật khẩu hiện tại";
             // 
             // label3
             // 
@@ -142,9 +142,9 @@
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(299, 188);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(148, 17);
+            this.label3.Size = new System.Drawing.Size(92, 17);
             this.label3.TabIndex = 67;
-            this.label3.Text = "Nhập lại mật khẩu mới";
+            this.label3.Text = "Mật khẩu mới";
             // 
             // label4
             // 
@@ -154,9 +154,9 @@
             this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(301, 251);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(92, 17);
+            this.label4.Size = new System.Drawing.Size(148, 17);
             this.label4.TabIndex = 69;
-            this.label4.Text = "Mật khẩu mới";
+            this.label4.Text = "Nhập lại mật khẩu mới";
             // 
             // txtUser
             // 
@@ -180,7 +180,7 @@
             this.txtUser.Location = new System.Drawing.Point(302, 147);
             this.txtUser.Name = "txtUser";
             this.txtUser.PasswordChar = '\0';
-            this.txtUser.PlaceholderText = "Nhập email";
+            this.txtUser.PlaceholderText = "Nhập mật khẩu hiện tại";
             this.txtUser.SelectedText = "";
             this.txtUser.Size = new System.Drawing.Size(200, 36);
             this.txtUser.TabIndex = 70;
@@ -207,7 +207,7 @@
             this.guna2TextBox1.Location = new System.Drawing.Point(302, 210);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "Nhập email";
+            this.guna2TextBox1.PlaceholderText = "Nhập mật khẩu mới";
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.Size = new System.Drawing.Size(200, 36);
             this.guna2TextBox1.TabIndex = 71;
@@ -234,20 +234,20 @@
             this.guna2TextBox2.Location = new System.Drawing.Point(302, 273);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
-            this.guna2TextBox2.PlaceholderText = "Nhập email";
+            this.guna2TextBox2.PlaceholderText = "Nhập lại mật khẩu mới";
             this.guna2TextBox2.SelectedText = "";
             this.guna2TextBox2.Size = new System.Drawing.Size(200, 36);
             this.guna2TextBox2.TabIndex = 72;
             // 
-            // pictureBox1
+            // pbBack
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(7, 7);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(28, 25);
-            this.pictureBox1.TabIndex = 73;
-            this.pictureBox1.TabStop = false;
+            this.pbBack.BackColor = System.Drawing.Color.Transparent;
+            this.pbBack.Image = ((System.Drawing.Image)(resources.GetObject("pbBack.Image")));
+            this.pbBack.Location = new System.Drawing.Point(7, 7);
+            this.pbBack.Name = "pbBack";
+            this.pbBack.Size = new System.Drawing.Size(28, 25);
+            this.pbBack.TabIndex = 73;
+            this.pbBack.TabStop = false;
             // 
             // ChangePass
             // 
@@ -261,7 +261,7 @@
             this.Text = "ChangePass";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBack)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -275,7 +275,7 @@
         private Guna.UI2.WinForms.Guna2Button btnCapnhat;
         private Guna.UI2.WinForms.Guna2Button btnTaomoi;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pbBack;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2TextBox txtUser;

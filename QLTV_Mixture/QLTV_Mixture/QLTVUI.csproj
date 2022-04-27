@@ -53,16 +53,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Account_St.cs">
+    <Compile Include="Form\Account_St.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Account_St.Designer.cs">
+    <Compile Include="Form\Account_St.Designer.cs">
       <DependentUpon>Account_St.cs</DependentUpon>
     </Compile>
-    <Compile Include="ChangePass.cs">
+    <Compile Include="Form\ChangePass.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ChangePass.Designer.cs">
+    <Compile Include="Form\ChangePass.Designer.cs">
       <DependentUpon>ChangePass.cs</DependentUpon>
     </Compile>
     <Compile Include="Form\Borrow.cs">
@@ -127,10 +127,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Account_St.resx">
+    <EmbeddedResource Include="Form\Account_St.resx">
       <DependentUpon>Account_St.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ChangePass.resx">
+    <EmbeddedResource Include="Form\ChangePass.resx">
       <DependentUpon>ChangePass.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\Borrow.resx">
