@@ -13,5 +13,6 @@ namespace QLTVDTO
         public int Amount { get; set; }
         public int Status { get; set; }
         public string IDLibrian { get; set; }
+        public string IDPub { get; set; }
     }
 }

@@ -56,7 +56,7 @@ namespace QLTV_Mixture
         // mở form tra cứu khi nhấp vào btn LookUp
         private void btnLookUp_Click(object sender, EventArgs e)
         {
-            OpenFrm(new QLTV_Mixture.LookUp());
+            OpenFrm(new QLTV_Mixture.LookUpfrm());
         }
 
         // mở form mượn khi nhấp vào btn Borrow

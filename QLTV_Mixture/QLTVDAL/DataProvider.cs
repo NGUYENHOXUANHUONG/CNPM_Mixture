@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace QLTVDAL
 {
     class DataProvider
-    {//singleton pattern (khởi tạo duy nhất)
+    {   //singleton pattern (khởi tạo duy nhất)
         private static DataProvider instance;
 
         public static DataProvider Instance
@@ -21,7 +21,7 @@ namespace QLTVDAL
         private DataProvider() { }
 
         //chuỗi kết nối
-        private string connectionSTR = "Data Source=DESKTOP-2H7RDEC\\SQLEXPRESS01;Initial Catalog=QLTV_Mixture;Integrated Security=True";
+        private string connectionSTR = "Data Source=MSI;Initial Catalog=QLTV_Mixture;Integrated Security=True";
 
         //truy vấn bảng dữ liệu (có thể có nhiều tham số truy vấn hoặc có thể không có tham số truy vấn)
         public DataTable ExecuteQuery(string query, object[] parameter = null)

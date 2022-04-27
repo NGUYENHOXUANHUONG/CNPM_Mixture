@@ -37,3 +37,16 @@ C:\Users\HP\OneDrive - Hochiminh City University of Education\CNPM_Mixture\QLTV_
 C:\Users\HP\OneDrive - Hochiminh City University of Education\CNPM_Mixture\QLTV_Mixture\QLTVDAL\obj\Debug\QLTVDAL.csproj.CopyComplete
 C:\Users\HP\OneDrive - Hochiminh City University of Education\CNPM_Mixture\QLTV_Mixture\QLTVDAL\obj\Debug\QLTVDAL.exe
 C:\Users\HP\OneDrive - Hochiminh City University of Education\CNPM_Mixture\QLTV_Mixture\QLTVDAL\obj\Debug\QLTVDAL.pdb
+D:\Baitap\nmcnpm\CNPM_Mixture\QLTV_Mixture\QLTVDAL\bin\Debug\QLTVDAL.exe.config
+D:\Baitap\nmcnpm\CNPM_Mixture\QLTV_Mixture\QLTVDAL\bin\Debug\QLTVDAL.exe
+D:\Baitap\nmcnpm\CNPM_Mixture\QLTV_Mixture\QLTVDAL\bin\Debug\QLTVDAL.pdb
+D:\Baitap\nmcnpm\CNPM_Mixture\QLTV_Mixture\QLTVDAL\bin\Debug\QLTVDTO.exe
+D:\Baitap\nmcnpm\CNPM_Mixture\QLTV_Mixture\QLTVDAL\bin\Debug\QLTVDTO.pdb
+D:\Baitap\nmcnpm\CNPM_Mixture\QLTV_Mixture\QLTVDAL\bin\Debug\QLTVDTO.exe.config
+D:\Baitap\nmcnpm\CNPM_Mixture\QLTV_Mixture\QLTVDAL\obj\Debug\QLTVDAL.csprojAssemblyReference.cache
+D:\Baitap\nmcnpm\CNPM_Mixture\QLTV_Mixture\QLTVDAL\obj\Debug\QLTVDAL.Properties.Resources.resources
+D:\Baitap\nmcnpm\CNPM_Mixture\QLTV_Mixture\QLTVDAL\obj\Debug\QLTVDAL.csproj.GenerateResource.cache
+D:\Baitap\nmcnpm\CNPM_Mixture\QLTV_Mixture\QLTVDAL\obj\Debug\QLTVDAL.csproj.CoreCompileInputs.cache
+D:\Baitap\nmcnpm\CNPM_Mixture\QLTV_Mixture\QLTVDAL\obj\Debug\QLTVDAL.csproj.CopyComplete
+D:\Baitap\nmcnpm\CNPM_Mixture\QLTV_Mixture\QLTVDAL\obj\Debug\QLTVDAL.exe
+D:\Baitap\nmcnpm\CNPM_Mixture\QLTV_Mixture\QLTVDAL\obj\Debug\QLTVDAL.pdb
