@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccountDTO.cs" />
+    <Compile Include="Author.cs" />
     <Compile Include="Book.cs" />
     <Compile Include="Bo_Cate.cs" />
     <Compile Include="Category.cs" />

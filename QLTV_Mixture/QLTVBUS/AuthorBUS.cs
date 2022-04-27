@@ -5,44 +5,30 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace QLTVBUS
 {
-    public class CategoryBUS
+    public class AuthorBUS
     {
         //singleton pattern (khởi tạo duy nhất)
-        private static CategoryBUS instance;
+        private static AuthorBUS instance;
 
-        public static CategoryBUS Instance
+        public static AuthorBUS Instance
         {
-            get { if (instance == null) instance = new CategoryBUS(); return CategoryBUS.instance; }
+            get { if (instance == null) instance = new AuthorBUS(); return AuthorBUS.instance; }
             private set => instance = value;
         }
 
-        private CategoryBUS() { }
+        private AuthorBUS() { }
 
-        public string getName(string id)
+        public DataTable getAuthor()
         {
             try
             {
-                return CategoryDAL.Instance.getName(id);
+                return AuthorDAL.Instance.getAuthor();
             }
             catch
             {
-                return "Chưa chọn thể loại";
-            }
-        }
-
-        public DataTable getCate()
-        {
-            try
-            {
-                return CategoryDAL.Instance.getCate();
-            }
-            catch (Exception e)
-            {
-                MessageBox.Show(e.Message);
                 return new DataTable();
             }
         }
@@ -51,7 +37,7 @@ namespace QLTVBUS
         {
             try
             {
-                return CategoryDAL.Instance.GetListName();
+                return AuthorDAL.Instance.GetListName();
             }
             catch
             {
@@ -63,7 +49,7 @@ namespace QLTVBUS
         {
             try
             {
-                return CategoryDAL.Instance.GetIdByName(name);
+                return AuthorDAL.Instance.GetIdByName(name);
             }
             catch
             {

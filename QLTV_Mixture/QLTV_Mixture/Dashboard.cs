@@ -74,13 +74,33 @@ namespace QLTV_Mixture
         // mở form tài khoản khi nhấp vào btn Account
         private void btnAccount_Click(object sender, EventArgs e)
         {
-            OpenFrm(new QLTV_Mixture.Account());
+            if(LoginFrm.UserType == 1)
+            {
+                OpenFrm(new QLTV_Mixture.Account());
+            }
+            else
+            {
+                OpenFrm(new QLTV_Mixture.Account_St());
+            }
+            
         }
 
         // mở form gia hạn khi nhấp vào btn Extend
         private void btnExtend_Click(object sender, EventArgs e)
         {
             OpenFrm(new QLTV_Mixture.Extend());
+        }
+
+        private void btnLogOut_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            LoginFrm f = new LoginFrm();
+            f.Show();
+        }
+
+        private void guna2ControlBox1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

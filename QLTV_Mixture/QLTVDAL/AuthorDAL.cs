@@ -7,33 +7,22 @@ using System.Threading.Tasks;
 
 namespace QLTVDAL
 {
-    public class CategoryDAL
+    public class AuthorDAL
     {
         //singleton pattern (khởi tạo duy nhất)
-        private static CategoryDAL instance;
+        private static AuthorDAL instance;
 
-        public static CategoryDAL Instance
+        public static AuthorDAL Instance
         {
-            get { if (instance == null) instance = new CategoryDAL(); return CategoryDAL.instance; }
+            get { if (instance == null) instance = new AuthorDAL(); return AuthorDAL.instance; }
             private set => instance = value;
         }
 
-        private CategoryDAL() { }
+        private AuthorDAL() { }
 
-        public string getName(string id)
+        public DataTable getAuthor()
         {
-            string query = "Select * from dbo.Category where id = '" + id + "'";
-
-            DataTable dt= DataProvider.Instance.ExecuteQuery(query);
-
-            string res = dt.Rows[0].Field<string>(1);
-
-            return res;
-        }
-
-        public DataTable getCate()
-        {
-            string query = "Select * from dbo.Category";
+            string query = "Select * from dbo.Author";
 
             return DataProvider.Instance.ExecuteQuery(query);
         }
@@ -42,11 +31,11 @@ namespace QLTVDAL
         {
             List<string> result = new List<string>();
 
-            string query = "Select * from dbo.Category";
+            string query = "Select * from dbo.Author";
 
             DataTable dt = DataProvider.Instance.ExecuteQuery(query);
 
-            foreach(DataRow r in dt.Rows)
+            foreach (DataRow r in dt.Rows)
             {
                 result.Add(r["Name"].ToString());
             }
@@ -56,7 +45,7 @@ namespace QLTVDAL
 
         public string GetIdByName(string name)
         {
-            string query = "Select * from dbo.Category where Name = '" + name + "'";
+            string query = "Select * from dbo.Author where Name = '" + name + "'";
 
             DataTable dt = DataProvider.Instance.ExecuteQuery(query);
 

@@ -33,7 +33,6 @@
             this.btnKhoa = new Guna.UI2.WinForms.Guna2Button();
             this.btnTaomoi = new Guna.UI2.WinForms.Guna2Button();
             this.txbMSSV = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txbLop = new Guna.UI2.WinForms.Guna2TextBox();
             this.txbMail = new Guna.UI2.WinForms.Guna2TextBox();
             this.txbSĐT = new Guna.UI2.WinForms.Guna2TextBox();
             this.txbHoten = new Guna.UI2.WinForms.Guna2TextBox();
@@ -138,29 +137,6 @@
             this.txbMSSV.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txbMSSV.TabIndex = 52;
             // 
-            // txbLop
-            // 
-            this.txbLop.BackColor = System.Drawing.Color.Transparent;
-            this.txbLop.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(21)))), ((int)(((byte)(255)))));
-            this.txbLop.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txbLop.DefaultText = "";
-            this.txbLop.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txbLop.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txbLop.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txbLop.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txbLop.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txbLop.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txbLop.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txbLop.Location = new System.Drawing.Point(536, 269);
-            this.txbLop.Margin = new System.Windows.Forms.Padding(4);
-            this.txbLop.Name = "txbLop";
-            this.txbLop.PasswordChar = '\0';
-            this.txbLop.PlaceholderText = "Lớp";
-            this.txbLop.SelectedText = "";
-            this.txbLop.Size = new System.Drawing.Size(200, 33);
-            this.txbLop.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
-            this.txbLop.TabIndex = 51;
-            // 
             // txbMail
             // 
             this.txbMail.BackColor = System.Drawing.Color.Transparent;
@@ -238,9 +214,9 @@
             this.label1.ForeColor = System.Drawing.Color.BlueViolet;
             this.label1.Location = new System.Drawing.Point(526, 36);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(212, 20);
+            this.label1.Size = new System.Drawing.Size(198, 20);
             this.label1.TabIndex = 47;
-            this.label1.Text = "TÀI KHOẢNG SINH VIÊN";
+            this.label1.Text = "TÀI KHOẢN SINH VIÊN";
             // 
             // lvAccount
             // 
@@ -306,7 +282,6 @@
             this.Controls.Add(this.btnKhoa);
             this.Controls.Add(this.btnTaomoi);
             this.Controls.Add(this.txbMSSV);
-            this.Controls.Add(this.txbLop);
             this.Controls.Add(this.txbMail);
             this.Controls.Add(this.txbSĐT);
             this.Controls.Add(this.txbHoten);
@@ -326,7 +301,6 @@
         private Guna.UI2.WinForms.Guna2Button btnKhoa;
         private Guna.UI2.WinForms.Guna2Button btnTaomoi;
         private Guna.UI2.WinForms.Guna2TextBox txbMSSV;
-        private Guna.UI2.WinForms.Guna2TextBox txbLop;
         private Guna.UI2.WinForms.Guna2TextBox txbMail;
         private Guna.UI2.WinForms.Guna2TextBox txbSĐT;
         private Guna.UI2.WinForms.Guna2TextBox txbHoten;

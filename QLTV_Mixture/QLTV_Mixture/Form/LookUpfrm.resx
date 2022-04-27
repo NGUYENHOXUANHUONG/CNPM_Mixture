@@ -120,20 +120,19 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnTuchoi.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAFWSURBVEhL5ZW/SsRAEMZTCfbJXmN5pY1gqW+ijSAWFpLLqZV4XKNvILYWPoHVWQpWvoKN6BtY
-        KGjG3+xNYDnD+mdjoX7wkR1m8u3M7GST/R2UCzI/KGQbHns6GZe5LJs7HYNcthAWWNtTeW/udJDxSEXN
-        1A0PG7sspA+PsKfVRahxGu9FQrzbILArJ+usw8pifOLdNS8SgowPLKDJ5gq+mDsdiC3BB9hkUpdOTs39
-        C7DjpEfvzsn8RlkVct3ay+8CsaG1ZlLlcsnzFj6aOx3h1ChCm2pWfEVWXYwap/FeJERsA+Z6lbWv7CMS
-        e9G6AROzq4KahVEnqrsW6SFz95w1mSA+oYruDvnHQcb6od3B6Yfm5JlKTsydjuCq2Fdam17NnY7YFH3x
-        sqtbz84EazNnx7TP2lf2GbZf17ls4pzNprsfziiTOQQ3oM+CtuwNe7Jo7n+LLHsD8v6AcnxLAasAAAAA
-        SUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAVZJREFUSEvl
+        lb9KxEAQxlMJ9sleY3mljWCpb6KNIBYWksuplXhco28gthY+gdVZCla+go3oG1goaMbf7E1gOcP6Z2Oh
+        fvCRHWby7czsZJP9HZQLMj8oZBseezoZl7ksmzsdg1y2EBZY21N5b+50kPFIRc3UDQ8buyykD4+wp9VF
+        qHEa70VCvNsgsCsn66zDymJ84t01LxKCjA8soMnmCr6YOx2ILcEH2GRSl05Ozf0LsOOkR+/OyfxGWRVy
+        3drL7wKxobVmUuVyyfMWPpo7HeHUKEKbalZ8RVZdjBqn8V4kRGwD5nqVta/sIxJ70boBE7OrgpqFUSeq
+        uxbpIXP3nDWZID6hiu4O+cdBxvqh3cHph+bkmUpOzJ2O4KrYV1qbXs2djtgUffGyq1vPzgRrM2fHtM/a
+        V/YZtl/XuWzinM2mux/OKJM5BDegz4K27A17smjuf4ssewPy/oByfEsBqwAAAABJRU5ErkJggg==
 </value>
   </data>
   <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="txbMSSV.IconRight" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="txbName.IconRight" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAcFJREFUSEvt
         lDtIA0EQhi++QNEUx+0ZQgobGzvBzgcIgqWVlYWVKcQ8LoeJjaA2IiqKoKBgLYqNiKXYWAoWFqJgp1gZ

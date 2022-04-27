@@ -126,6 +126,7 @@
             this.btnLogOut.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnLogOut.TextOffset = new System.Drawing.Point(30, 0);
             this.toolTip.SetToolTip(this.btnLogOut, "Đăng xuất");
+            this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
             // 
             // btnAccount
             // 
@@ -323,6 +324,7 @@
             this.guna2ControlBox1.Size = new System.Drawing.Size(45, 29);
             this.guna2ControlBox1.TabIndex = 8;
             this.toolTip.SetToolTip(this.guna2ControlBox1, "Close");
+            this.guna2ControlBox1.Click += new System.EventHandler(this.guna2ControlBox1_Click);
             // 
             // lbCv
             // 

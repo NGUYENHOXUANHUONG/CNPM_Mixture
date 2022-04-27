@@ -42,7 +42,6 @@ namespace QLTV_Mixture
                 Dashboard d = new Dashboard();
                 this.Hide();
                 d.ShowDialog();
-                this.Show();
             }
             else
             {

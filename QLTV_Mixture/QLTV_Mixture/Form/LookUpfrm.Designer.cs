@@ -31,13 +31,14 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LookUpfrm));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnTuchoi = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.ccbCate = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.ccbAuth = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.txbMSSV = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txbName = new Guna.UI2.WinForms.Guna2TextBox();
             this.lvLookUp = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -46,7 +47,6 @@
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.btnTuchoi = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,13 +61,38 @@
             this.panel1.Controls.Add(this.ccbCate);
             this.panel1.Controls.Add(this.guna2HtmlLabel1);
             this.panel1.Controls.Add(this.ccbAuth);
-            this.panel1.Controls.Add(this.txbMSSV);
+            this.panel1.Controls.Add(this.txbName);
             this.panel1.Controls.Add(this.lvLookUp);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(750, 490);
             this.panel1.TabIndex = 0;
+            // 
+            // btnTuchoi
+            // 
+            this.btnTuchoi.BackColor = System.Drawing.Color.Transparent;
+            this.btnTuchoi.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(21)))), ((int)(((byte)(255)))));
+            this.btnTuchoi.BorderRadius = 10;
+            this.btnTuchoi.BorderThickness = 2;
+            this.btnTuchoi.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnTuchoi.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnTuchoi.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnTuchoi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnTuchoi.FillColor = System.Drawing.Color.White;
+            this.btnTuchoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.btnTuchoi.ForeColor = System.Drawing.Color.Black;
+            this.btnTuchoi.Image = ((System.Drawing.Image)(resources.GetObject("btnTuchoi.Image")));
+            this.btnTuchoi.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnTuchoi.ImageOffset = new System.Drawing.Point(5, 0);
+            this.btnTuchoi.Location = new System.Drawing.Point(638, 44);
+            this.btnTuchoi.Name = "btnTuchoi";
+            this.btnTuchoi.Size = new System.Drawing.Size(100, 36);
+            this.btnTuchoi.TabIndex = 60;
+            this.btnTuchoi.Text = "Tất cả";
+            this.btnTuchoi.TextOffset = new System.Drawing.Point(8, 0);
+            this.toolTip1.SetToolTip(this.btnTuchoi, "Hiện tất cả danh sách");
+            this.btnTuchoi.Click += new System.EventHandler(this.btnTuchoi_Click);
             // 
             // label1
             // 
@@ -126,6 +151,7 @@
             this.ccbCate.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.ccbCate.TabIndex = 56;
             this.toolTip1.SetToolTip(this.ccbCate, "Chọn thể loại");
+            this.ccbCate.SelectedIndexChanged += new System.EventHandler(this.ccbCate_SelectedIndexChanged);
             // 
             // guna2HtmlLabel1
             // 
@@ -148,7 +174,7 @@
             this.ccbAuth.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.ccbAuth.DropDownHeight = 150;
             this.ccbAuth.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ccbAuth.DropDownWidth = 150;
+            this.ccbAuth.DropDownWidth = 250;
             this.ccbAuth.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ccbAuth.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ccbAuth.Font = new System.Drawing.Font("Segoe UI", 10F);
@@ -157,34 +183,36 @@
             this.ccbAuth.ItemHeight = 30;
             this.ccbAuth.Location = new System.Drawing.Point(467, 44);
             this.ccbAuth.Name = "ccbAuth";
-            this.ccbAuth.Size = new System.Drawing.Size(127, 36);
+            this.ccbAuth.Size = new System.Drawing.Size(165, 36);
             this.ccbAuth.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.ccbAuth.TabIndex = 54;
             this.toolTip1.SetToolTip(this.ccbAuth, "Chọn tác giả");
+            this.ccbAuth.SelectedIndexChanged += new System.EventHandler(this.ccbAuth_SelectedIndexChanged);
             // 
-            // txbMSSV
+            // txbName
             // 
-            this.txbMSSV.BackColor = System.Drawing.Color.Transparent;
-            this.txbMSSV.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(21)))), ((int)(((byte)(255)))));
-            this.txbMSSV.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txbMSSV.DefaultText = "";
-            this.txbMSSV.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txbMSSV.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txbMSSV.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txbMSSV.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txbMSSV.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txbMSSV.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txbMSSV.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txbMSSV.IconRight = ((System.Drawing.Image)(resources.GetObject("txbMSSV.IconRight")));
-            this.txbMSSV.Location = new System.Drawing.Point(78, 44);
-            this.txbMSSV.Margin = new System.Windows.Forms.Padding(4);
-            this.txbMSSV.Name = "txbMSSV";
-            this.txbMSSV.PasswordChar = '\0';
-            this.txbMSSV.PlaceholderText = "Tên sách";
-            this.txbMSSV.SelectedText = "";
-            this.txbMSSV.Size = new System.Drawing.Size(127, 36);
-            this.txbMSSV.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
-            this.txbMSSV.TabIndex = 53;
+            this.txbName.BackColor = System.Drawing.Color.Transparent;
+            this.txbName.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(21)))), ((int)(((byte)(255)))));
+            this.txbName.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txbName.DefaultText = "";
+            this.txbName.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txbName.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txbName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txbName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txbName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txbName.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txbName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txbName.IconRight = ((System.Drawing.Image)(resources.GetObject("txbName.IconRight")));
+            this.txbName.Location = new System.Drawing.Point(78, 44);
+            this.txbName.Margin = new System.Windows.Forms.Padding(4);
+            this.txbName.Name = "txbName";
+            this.txbName.PasswordChar = '\0';
+            this.txbName.PlaceholderText = "Tên sách";
+            this.txbName.SelectedText = "";
+            this.txbName.Size = new System.Drawing.Size(127, 36);
+            this.txbName.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
+            this.txbName.TabIndex = 53;
+            this.txbName.TextChanged += new System.EventHandler(this.txbName_TextChanged);
             // 
             // lvLookUp
             // 
@@ -240,30 +268,6 @@
             this.columnHeader6.Text = "Trạng thái";
             this.columnHeader6.Width = 80;
             // 
-            // btnTuchoi
-            // 
-            this.btnTuchoi.BackColor = System.Drawing.Color.Transparent;
-            this.btnTuchoi.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(21)))), ((int)(((byte)(255)))));
-            this.btnTuchoi.BorderRadius = 10;
-            this.btnTuchoi.BorderThickness = 2;
-            this.btnTuchoi.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnTuchoi.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnTuchoi.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnTuchoi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnTuchoi.FillColor = System.Drawing.Color.White;
-            this.btnTuchoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.btnTuchoi.ForeColor = System.Drawing.Color.Black;
-            this.btnTuchoi.Image = ((System.Drawing.Image)(resources.GetObject("btnTuchoi.Image")));
-            this.btnTuchoi.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnTuchoi.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnTuchoi.Location = new System.Drawing.Point(638, 44);
-            this.btnTuchoi.Name = "btnTuchoi";
-            this.btnTuchoi.Size = new System.Drawing.Size(100, 36);
-            this.btnTuchoi.TabIndex = 60;
-            this.btnTuchoi.Text = "Tất cả";
-            this.btnTuchoi.TextOffset = new System.Drawing.Point(8, 0);
-            this.toolTip1.SetToolTip(this.btnTuchoi, "Hiện tất cả danh sách");
-            // 
             // LookUpfrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -289,7 +293,7 @@
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2ComboBox ccbAuth;
-        private Guna.UI2.WinForms.Guna2TextBox txbMSSV;
+        private Guna.UI2.WinForms.Guna2TextBox txbName;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2ComboBox ccbCate;

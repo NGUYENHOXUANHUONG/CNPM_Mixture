@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccountDAL.cs" />
+    <Compile Include="AuthorDAL.cs" />
     <Compile Include="BookDAL.cs" />
     <Compile Include="Bo_CateDAL.cs" />
     <Compile Include="CategoryDAL.cs" />
