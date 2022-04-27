@@ -46,6 +46,7 @@
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.btnTuchoi = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,6 +54,7 @@
             // 
             this.panel1.BackgroundImage = global::QLTV_Mixture.Properties.Resources.umhum;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.btnTuchoi);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.guna2HtmlLabel3);
             this.panel1.Controls.Add(this.guna2HtmlLabel2);
@@ -95,7 +97,7 @@
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(273, 54);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(207, 54);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(52, 18);
             this.guna2HtmlLabel2.TabIndex = 57;
@@ -109,15 +111,18 @@
             this.ccbCate.BorderRadius = 17;
             this.ccbCate.BorderThickness = 2;
             this.ccbCate.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.ccbCate.DropDownHeight = 150;
             this.ccbCate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ccbCate.DropDownWidth = 150;
             this.ccbCate.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ccbCate.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ccbCate.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.ccbCate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.ccbCate.IntegralHeight = false;
             this.ccbCate.ItemHeight = 30;
-            this.ccbCate.Location = new System.Drawing.Point(337, 44);
+            this.ccbCate.Location = new System.Drawing.Point(271, 44);
             this.ccbCate.Name = "ccbCate";
-            this.ccbCate.Size = new System.Drawing.Size(140, 36);
+            this.ccbCate.Size = new System.Drawing.Size(127, 36);
             this.ccbCate.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.ccbCate.TabIndex = 56;
             this.toolTip1.SetToolTip(this.ccbCate, "Chọn thể loại");
@@ -127,7 +132,7 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(523, 54);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(403, 54);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(49, 18);
             this.guna2HtmlLabel1.TabIndex = 55;
@@ -141,15 +146,18 @@
             this.ccbAuth.BorderRadius = 17;
             this.ccbAuth.BorderThickness = 2;
             this.ccbAuth.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.ccbAuth.DropDownHeight = 150;
             this.ccbAuth.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ccbAuth.DropDownWidth = 150;
             this.ccbAuth.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ccbAuth.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ccbAuth.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.ccbAuth.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.ccbAuth.IntegralHeight = false;
             this.ccbAuth.ItemHeight = 30;
-            this.ccbAuth.Location = new System.Drawing.Point(587, 44);
+            this.ccbAuth.Location = new System.Drawing.Point(467, 44);
             this.ccbAuth.Name = "ccbAuth";
-            this.ccbAuth.Size = new System.Drawing.Size(140, 36);
+            this.ccbAuth.Size = new System.Drawing.Size(127, 36);
             this.ccbAuth.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.ccbAuth.TabIndex = 54;
             this.toolTip1.SetToolTip(this.ccbAuth, "Chọn tác giả");
@@ -168,13 +176,13 @@
             this.txbMSSV.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txbMSSV.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txbMSSV.IconRight = ((System.Drawing.Image)(resources.GetObject("txbMSSV.IconRight")));
-            this.txbMSSV.Location = new System.Drawing.Point(93, 44);
+            this.txbMSSV.Location = new System.Drawing.Point(78, 44);
             this.txbMSSV.Margin = new System.Windows.Forms.Padding(4);
             this.txbMSSV.Name = "txbMSSV";
             this.txbMSSV.PasswordChar = '\0';
             this.txbMSSV.PlaceholderText = "Tên sách";
             this.txbMSSV.SelectedText = "";
-            this.txbMSSV.Size = new System.Drawing.Size(140, 36);
+            this.txbMSSV.Size = new System.Drawing.Size(127, 36);
             this.txbMSSV.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txbMSSV.TabIndex = 53;
             // 
@@ -209,19 +217,16 @@
             // columnHeader2
             // 
             this.columnHeader2.Text = "Tên sách";
-            this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnHeader2.Width = 200;
             // 
             // columnHeader3
             // 
             this.columnHeader3.Text = "Thể loại";
-            this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnHeader3.Width = 250;
             // 
             // columnHeader4
             // 
             this.columnHeader4.Text = "Tác giả";
-            this.columnHeader4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnHeader4.Width = 120;
             // 
             // columnHeader5
@@ -233,17 +238,40 @@
             // columnHeader6
             // 
             this.columnHeader6.Text = "Trạng thái";
-            this.columnHeader6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnHeader6.Width = 80;
             // 
-            // LookUp
+            // btnTuchoi
+            // 
+            this.btnTuchoi.BackColor = System.Drawing.Color.Transparent;
+            this.btnTuchoi.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(21)))), ((int)(((byte)(255)))));
+            this.btnTuchoi.BorderRadius = 10;
+            this.btnTuchoi.BorderThickness = 2;
+            this.btnTuchoi.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnTuchoi.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnTuchoi.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnTuchoi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnTuchoi.FillColor = System.Drawing.Color.White;
+            this.btnTuchoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.btnTuchoi.ForeColor = System.Drawing.Color.Black;
+            this.btnTuchoi.Image = ((System.Drawing.Image)(resources.GetObject("btnTuchoi.Image")));
+            this.btnTuchoi.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnTuchoi.ImageOffset = new System.Drawing.Point(5, 0);
+            this.btnTuchoi.Location = new System.Drawing.Point(638, 44);
+            this.btnTuchoi.Name = "btnTuchoi";
+            this.btnTuchoi.Size = new System.Drawing.Size(100, 36);
+            this.btnTuchoi.TabIndex = 60;
+            this.btnTuchoi.Text = "Tất cả";
+            this.btnTuchoi.TextOffset = new System.Drawing.Point(8, 0);
+            this.toolTip1.SetToolTip(this.btnTuchoi, "Hiện tất cả danh sách");
+            // 
+            // LookUpfrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(750, 490);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "LookUp";
+            this.Name = "LookUpfrm";
             this.Text = "LookUp";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -269,5 +297,6 @@
         private System.Windows.Forms.ColumnHeader columnHeader6;
         private System.Windows.Forms.ColumnHeader columnHeader5;
         private System.Windows.Forms.Label label1;
+        private Guna.UI2.WinForms.Guna2Button btnTuchoi;
     }
 }
