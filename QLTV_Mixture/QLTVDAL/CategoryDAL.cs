@@ -56,7 +56,7 @@ namespace QLTVDAL
 
         public string GetIdByName(string name)
         {
-            string query = "Select * from dbo.Category where Name = '" + name + "'";
+            string query = "Select * from dbo.Category where Name = N'" + name + "'";
 
             DataTable dt = DataProvider.Instance.ExecuteQuery(query);
 

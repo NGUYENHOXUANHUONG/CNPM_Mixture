@@ -34,9 +34,9 @@ namespace QLTV_Mixture
             }
 
             List<string> Auth = AuthorBUS.Instance.GetListName();
-            for (int i = 0; i < Cate.Count; i++)
+            for (int i = 0; i < Auth.Count; i++)
             {
-                ccbAuth.Items.Add(Cate[i]);
+                ccbAuth.Items.Add(Auth[i]);
             }
         }
 
@@ -65,7 +65,7 @@ namespace QLTV_Mixture
             {
                 string ca_name = ccbCate.SelectedItem.ToString();
                 string IdCate = CategoryBUS.Instance.GetIdByName(ca_name);
-                List<LookUp> lk = LookUpBUS.Instance.SortByAuthor(IdCate);
+                List<LookUp> lk = LookUpBUS.Instance.SortByCate(IdCate);
                 AddLsvItem(lk);
             }
             else if (bookname.Length > 0 && ccbAuth.SelectedIndex != -1 && ccbCate.SelectedIndex == -1) //Chọn tên sách và tác giả
