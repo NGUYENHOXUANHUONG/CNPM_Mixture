@@ -60,13 +60,14 @@
             this.columnHeader3,
             this.columnHeader4,
             this.columnHeader5});
+            this.lvDSmuon.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.lvDSmuon.Font = new System.Drawing.Font("Century Gothic", 10F);
             this.lvDSmuon.ForeColor = System.Drawing.Color.Indigo;
             this.lvDSmuon.FullRowSelect = true;
             this.lvDSmuon.HideSelection = false;
-            this.lvDSmuon.Location = new System.Drawing.Point(11, 54);
+            this.lvDSmuon.Location = new System.Drawing.Point(0, 57);
             this.lvDSmuon.Name = "lvDSmuon";
-            this.lvDSmuon.Size = new System.Drawing.Size(727, 424);
+            this.lvDSmuon.Size = new System.Drawing.Size(750, 433);
             this.lvDSmuon.TabIndex = 49;
             this.lvDSmuon.UseCompatibleStateImageBehavior = false;
             this.lvDSmuon.View = System.Windows.Forms.View.Details;

@@ -16,9 +16,22 @@ namespace QLTV_Mixture
         {
             InitializeComponent();
             guna2ShadowForm.SetShadowForm(this);
-            
+
+            //hiển thị chức vụ khi load vào form
+            lbName.Text = LoginFrm.UserName;
+            if (LoginFrm.UserType == 1)
+            {
+                lbCv.Text = "Thủ thư";
+            }
+            else
+            {
+                lbCv.Text = "Sinh viên";
+                btnBook.Visible = false;
+                btnExtend.Visible = false;
+            }
         }
         
+        // Hàm mở form con
         private Form activeForm = null;
         public void OpenFrm(Form childForm)
         {
@@ -34,31 +47,37 @@ namespace QLTV_Mixture
             childForm.Show();
         }
 
+        // mở form trang chủ khi nhấp vào btn Dashboard
         private void btnDashBoard_Click(object sender, EventArgs e)
         {
             OpenFrm(new QLTV_Mixture.Main());
         }
 
+        // mở form tra cứu khi nhấp vào btn LookUp
         private void btnLookUp_Click(object sender, EventArgs e)
         {
             OpenFrm(new QLTV_Mixture.LookUp());
         }
 
+        // mở form mượn khi nhấp vào btn Borrow
         private void btnBorrow_Click(object sender, EventArgs e)
         {
             OpenFrm(new QLTV_Mixture.Borrow());
         }
 
+        // mở form sách khi nhấp vào btn Book
         private void btnBook_Click(object sender, EventArgs e)
         {
             OpenFrm(new QLTV_Mixture.Book());
         }
 
+        // mở form tài khoản khi nhấp vào btn Account
         private void btnAccount_Click(object sender, EventArgs e)
         {
             OpenFrm(new QLTV_Mixture.Account());
         }
 
+        // mở form gia hạn khi nhấp vào btn Extend
         private void btnExtend_Click(object sender, EventArgs e)
         {
             OpenFrm(new QLTV_Mixture.Extend());

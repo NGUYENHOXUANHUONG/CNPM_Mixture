@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             this.Leftpanel = new System.Windows.Forms.Panel();
+            this.btnExtend = new Guna.UI2.WinForms.Guna2Button();
             this.btnLogOut = new Guna.UI2.WinForms.Guna2Button();
             this.btnAccount = new Guna.UI2.WinForms.Guna2Button();
             this.btnBook = new Guna.UI2.WinForms.Guna2Button();
@@ -41,12 +42,11 @@
             this.Toppanel = new System.Windows.Forms.Panel();
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lbCv = new System.Windows.Forms.Label();
+            this.lbName = new System.Windows.Forms.Label();
             this.panelMain = new System.Windows.Forms.Panel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.guna2ShadowForm = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
-            this.btnExtend = new Guna.UI2.WinForms.Guna2Button();
             this.Leftpanel.SuspendLayout();
             this.Toppanel.SuspendLayout();
             this.SuspendLayout();
@@ -67,6 +67,36 @@
             this.Leftpanel.Name = "Leftpanel";
             this.Leftpanel.Size = new System.Drawing.Size(180, 570);
             this.Leftpanel.TabIndex = 31;
+            // 
+            // btnExtend
+            // 
+            this.btnExtend.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnExtend.CheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.btnExtend.CheckedState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnExtend.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(45)))), ((int)(((byte)(210)))));
+            this.btnExtend.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.btnExtend.CustomBorderThickness = new System.Windows.Forms.Padding(2, 0, 0, 0);
+            this.btnExtend.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnExtend.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnExtend.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnExtend.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnExtend.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(21)))), ((int)(((byte)(255)))));
+            this.btnExtend.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExtend.ForeColor = System.Drawing.Color.White;
+            this.btnExtend.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnExtend.Image = ((System.Drawing.Image)(resources.GetObject("btnExtend.Image")));
+            this.btnExtend.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnExtend.ImageOffset = new System.Drawing.Point(20, 0);
+            this.btnExtend.Location = new System.Drawing.Point(0, 327);
+            this.btnExtend.Name = "btnExtend";
+            this.btnExtend.PressedColor = System.Drawing.Color.White;
+            this.btnExtend.Size = new System.Drawing.Size(180, 40);
+            this.btnExtend.TabIndex = 7;
+            this.btnExtend.Text = "Gia hạn";
+            this.btnExtend.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnExtend.TextOffset = new System.Drawing.Point(30, 0);
+            this.toolTip.SetToolTip(this.btnExtend, "Quản lý yêu cầu gia hạn");
+            this.btnExtend.Click += new System.EventHandler(this.btnExtend_Click);
             // 
             // btnLogOut
             // 
@@ -116,7 +146,7 @@
             this.btnAccount.Image = ((System.Drawing.Image)(resources.GetObject("btnAccount.Image")));
             this.btnAccount.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnAccount.ImageOffset = new System.Drawing.Point(20, 0);
-            this.btnAccount.Location = new System.Drawing.Point(0, 271);
+            this.btnAccount.Location = new System.Drawing.Point(0, 247);
             this.btnAccount.Name = "btnAccount";
             this.btnAccount.PressedColor = System.Drawing.Color.White;
             this.btnAccount.Size = new System.Drawing.Size(180, 40);
@@ -146,7 +176,7 @@
             this.btnBook.Image = ((System.Drawing.Image)(resources.GetObject("btnBook.Image")));
             this.btnBook.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnBook.ImageOffset = new System.Drawing.Point(20, 0);
-            this.btnBook.Location = new System.Drawing.Point(0, 235);
+            this.btnBook.Location = new System.Drawing.Point(0, 287);
             this.btnBook.Name = "btnBook";
             this.btnBook.PressedColor = System.Drawing.Color.White;
             this.btnBook.Size = new System.Drawing.Size(180, 40);
@@ -176,7 +206,7 @@
             this.btnBorrow.Image = ((System.Drawing.Image)(resources.GetObject("btnBorrow.Image")));
             this.btnBorrow.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnBorrow.ImageOffset = new System.Drawing.Point(20, 0);
-            this.btnBorrow.Location = new System.Drawing.Point(0, 199);
+            this.btnBorrow.Location = new System.Drawing.Point(0, 207);
             this.btnBorrow.Name = "btnBorrow";
             this.btnBorrow.PressedColor = System.Drawing.Color.White;
             this.btnBorrow.Size = new System.Drawing.Size(180, 40);
@@ -206,7 +236,7 @@
             this.btnLookUp.Image = ((System.Drawing.Image)(resources.GetObject("btnLookUp.Image")));
             this.btnLookUp.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnLookUp.ImageOffset = new System.Drawing.Point(20, 0);
-            this.btnLookUp.Location = new System.Drawing.Point(0, 163);
+            this.btnLookUp.Location = new System.Drawing.Point(0, 167);
             this.btnLookUp.Name = "btnLookUp";
             this.btnLookUp.PressedColor = System.Drawing.Color.White;
             this.btnLookUp.Size = new System.Drawing.Size(180, 40);
@@ -263,8 +293,8 @@
             this.Toppanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.Toppanel.Controls.Add(this.guna2ControlBox2);
             this.Toppanel.Controls.Add(this.guna2ControlBox1);
-            this.Toppanel.Controls.Add(this.label3);
-            this.Toppanel.Controls.Add(this.label2);
+            this.Toppanel.Controls.Add(this.lbCv);
+            this.Toppanel.Controls.Add(this.lbName);
             this.Toppanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.Toppanel.Location = new System.Drawing.Point(180, 0);
             this.Toppanel.Name = "Toppanel";
@@ -294,27 +324,27 @@
             this.guna2ControlBox1.TabIndex = 8;
             this.toolTip.SetToolTip(this.guna2ControlBox1, "Close");
             // 
-            // label3
+            // lbCv
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(9, 49);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 20);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Admin";
+            this.lbCv.AutoSize = true;
+            this.lbCv.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCv.ForeColor = System.Drawing.Color.White;
+            this.lbCv.Location = new System.Drawing.Point(9, 49);
+            this.lbCv.Name = "lbCv";
+            this.lbCv.Size = new System.Drawing.Size(59, 20);
+            this.lbCv.TabIndex = 7;
+            this.lbCv.Text = "Admin";
             // 
-            // label2
+            // lbName
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(6, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 31);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Name";
+            this.lbName.AutoSize = true;
+            this.lbName.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbName.ForeColor = System.Drawing.Color.White;
+            this.lbName.Location = new System.Drawing.Point(6, 9);
+            this.lbName.Name = "lbName";
+            this.lbName.Size = new System.Drawing.Size(90, 31);
+            this.lbName.TabIndex = 6;
+            this.lbName.Text = "Name";
             // 
             // panelMain
             // 
@@ -332,36 +362,6 @@
             this.toolTip.ForeColor = System.Drawing.Color.White;
             this.toolTip.ShowAlways = true;
             // 
-            // btnExtend
-            // 
-            this.btnExtend.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnExtend.CheckedState.BorderColor = System.Drawing.Color.Transparent;
-            this.btnExtend.CheckedState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btnExtend.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(45)))), ((int)(((byte)(210)))));
-            this.btnExtend.CheckedState.ForeColor = System.Drawing.Color.White;
-            this.btnExtend.CustomBorderThickness = new System.Windows.Forms.Padding(2, 0, 0, 0);
-            this.btnExtend.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnExtend.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnExtend.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnExtend.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnExtend.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(21)))), ((int)(((byte)(255)))));
-            this.btnExtend.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExtend.ForeColor = System.Drawing.Color.White;
-            this.btnExtend.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnExtend.Image = ((System.Drawing.Image)(resources.GetObject("btnExtend.Image")));
-            this.btnExtend.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnExtend.ImageOffset = new System.Drawing.Point(20, 0);
-            this.btnExtend.Location = new System.Drawing.Point(0, 307);
-            this.btnExtend.Name = "btnExtend";
-            this.btnExtend.PressedColor = System.Drawing.Color.White;
-            this.btnExtend.Size = new System.Drawing.Size(180, 40);
-            this.btnExtend.TabIndex = 7;
-            this.btnExtend.Text = "Gia hạn";
-            this.btnExtend.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnExtend.TextOffset = new System.Drawing.Point(30, 0);
-            this.toolTip.SetToolTip(this.btnExtend, "Quản lý yêu cầu gia hạn");
-            this.btnExtend.Click += new System.EventHandler(this.btnExtend_Click);
-            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -374,6 +374,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Dashboard";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Mixture";
             this.Leftpanel.ResumeLayout(false);
             this.Leftpanel.PerformLayout();
@@ -390,8 +391,8 @@
         private System.Windows.Forms.Panel Toppanel;
         private System.Windows.Forms.Panel panelMain;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbCv;
+        private System.Windows.Forms.Label lbName;
         private Guna.UI2.WinForms.Guna2Button btnDashBoard;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;

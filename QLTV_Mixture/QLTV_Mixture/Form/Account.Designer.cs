@@ -265,29 +265,34 @@
             // 
             // columnHeader1
             // 
+            this.columnHeader1.Tag = "1";
             this.columnHeader1.Text = "MSSV";
             this.columnHeader1.Width = 100;
             // 
             // columnHeader2
             // 
+            this.columnHeader2.Tag = "1";
             this.columnHeader2.Text = "Họ tên";
             this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnHeader2.Width = 200;
             // 
             // columnHeader3
             // 
+            this.columnHeader3.Tag = "2";
             this.columnHeader3.Text = "Mail";
             this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnHeader3.Width = 250;
             // 
             // columnHeader4
             // 
+            this.columnHeader4.Tag = "1";
             this.columnHeader4.Text = "SĐT";
             this.columnHeader4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnHeader4.Width = 100;
             // 
             // columnHeader5
             // 
+            this.columnHeader5.Tag = "1";
             this.columnHeader5.Text = "Lớp";
             this.columnHeader5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -310,7 +315,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Account";
             this.Text = "Account";
-            this.Load += new System.EventHandler(this.Account_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -1,9 +1,11 @@
-﻿using System;
+﻿using QLTVBUS;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,36 +19,35 @@ namespace QLTV_Mixture
             InitializeComponent();
         }
 
-        //hàm gọi kiểm tra login của class accountDAO
-        //bool Login(string username, string password)
-        //{
-        //    //return BUS.Instance.Login(username, password);
-        //}
-
-        private void siticoneButton1_Click(object sender, EventArgs e)
+        bool Login(string email, string password)
         {
-            ////biến tạm lưu tên đăng nhập và mật khẩu
-            //string user = txtUser.Text;
-            //string pass = txtPass.Text;
+            return AccountBUS.Instance.Login(email, password);
+        }
 
-            ////kiểm tra tài khoản mật khẩu
-            //if (Login(user, pass))
-            //{
-            //    //lưu tên và chức vụ người dùng QSG
-            //    UserDisplayName = AccountBUS.Instance.GetDisplayName(user, pass);
-            //    UserStatic = AccountBUS.Instance.GetStatus(user, pass);
-            //    UserName = AccountBUS.Instance.GetUserName(user, pass);
-            //    //mở form Menu
-            //    frmMenu f = new frmMenu();
-            //    this.Hide();
-            //    f.ShowDialog();
-            //    this.Show();
-            //}
-            //else
-            //{
-            //    //hiện dòng chữ sai tài khoản hoặc mật khẩu
-            //    MessageBox.Show("Sai mmật khẩu!","Cảnh báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
-            //}
+        //trường truyền chức vụ người dùng đăng nhập cho các form khác
+        private static int userType;
+
+        public static int UserType { get => userType; private set => userType = value; }
+
+        private static string userName;
+
+        public static string UserName { get => userName; private set => userName = value; }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            if (Login(txtUser.Text, txtPass.Text))
+            {
+                UserType = AccountBUS.Instance.getType(txtUser.Text, txtPass.Text);
+                UserName = AccountBUS.Instance.getName(txtUser.Text, txtPass.Text);
+                Dashboard d = new Dashboard();
+                this.Hide();
+                d.ShowDialog();
+                this.Show();
+            }
+            else
+            {
+                MessageBox.Show("Sai tài khoản hoặc mật khẩu", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
     }
 }

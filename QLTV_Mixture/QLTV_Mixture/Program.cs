@@ -17,7 +17,7 @@ namespace QLTVUI
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new btnAdd());
-            Application.Run(new QLTV_Mixture.Dashboard());
+            Application.Run(new QLTV_Mixture.LoginFrm());
         }
     }
 }
