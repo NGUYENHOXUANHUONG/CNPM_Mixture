@@ -34,8 +34,9 @@
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txbMSSV = new Guna.UI2.WinForms.Guna2TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -58,48 +59,78 @@
             this.columnHeader1,
             this.columnHeader2,
             this.columnHeader3,
-            this.columnHeader4,
             this.columnHeader5});
             this.lvDSmuon.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.lvDSmuon.Font = new System.Drawing.Font("Century Gothic", 10F);
             this.lvDSmuon.ForeColor = System.Drawing.Color.Indigo;
             this.lvDSmuon.FullRowSelect = true;
             this.lvDSmuon.HideSelection = false;
-            this.lvDSmuon.Location = new System.Drawing.Point(0, 57);
+            this.lvDSmuon.Location = new System.Drawing.Point(0, 99);
             this.lvDSmuon.Name = "lvDSmuon";
-            this.lvDSmuon.Size = new System.Drawing.Size(750, 433);
+            this.lvDSmuon.Size = new System.Drawing.Size(750, 391);
             this.lvDSmuon.TabIndex = 49;
             this.lvDSmuon.UseCompatibleStateImageBehavior = false;
             this.lvDSmuon.View = System.Windows.Forms.View.Details;
+            this.lvDSmuon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lvDSmuon_MouseDoubleClick);
             // 
             // columnHeader1
             // 
             this.columnHeader1.Text = "MSSV";
-            this.columnHeader1.Width = 150;
+            this.columnHeader1.Width = 91;
             // 
             // columnHeader2
             // 
             this.columnHeader2.Text = "Họ tên";
             this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader2.Width = 200;
+            this.columnHeader2.Width = 163;
             // 
             // columnHeader3
             // 
             this.columnHeader3.Text = "Mail";
             this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader3.Width = 200;
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "Lớp";
-            this.columnHeader4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader4.Width = 100;
+            this.columnHeader3.Width = 163;
             // 
             // columnHeader5
             // 
             this.columnHeader5.Text = "Sách mượn";
             this.columnHeader5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader5.Width = 200;
+            this.columnHeader5.Width = 335;
+            // 
+            // guna2HtmlLabel3
+            // 
+            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.Black;
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(37, 66);
+            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(41, 18);
+            this.guna2HtmlLabel3.TabIndex = 60;
+            this.guna2HtmlLabel3.Text = "MSSV";
+            // 
+            // txbMSSV
+            // 
+            this.txbMSSV.BackColor = System.Drawing.Color.Transparent;
+            this.txbMSSV.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(21)))), ((int)(((byte)(255)))));
+            this.txbMSSV.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txbMSSV.DefaultText = "";
+            this.txbMSSV.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txbMSSV.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txbMSSV.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txbMSSV.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txbMSSV.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txbMSSV.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txbMSSV.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txbMSSV.IconRight = ((System.Drawing.Image)(resources.GetObject("txbMSSV.IconRight")));
+            this.txbMSSV.Location = new System.Drawing.Point(103, 56);
+            this.txbMSSV.Margin = new System.Windows.Forms.Padding(4);
+            this.txbMSSV.Name = "txbMSSV";
+            this.txbMSSV.PasswordChar = '\0';
+            this.txbMSSV.PlaceholderText = "MSSV";
+            this.txbMSSV.SelectedText = "";
+            this.txbMSSV.Size = new System.Drawing.Size(127, 36);
+            this.txbMSSV.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
+            this.txbMSSV.TabIndex = 59;
+            this.txbMSSV.TextChanged += new System.EventHandler(this.txbMSSV_TextChanged);
             // 
             // Borrow
             // 
@@ -108,6 +139,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(750, 490);
+            this.Controls.Add(this.guna2HtmlLabel3);
+            this.Controls.Add(this.txbMSSV);
             this.Controls.Add(this.lvDSmuon);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -125,7 +158,8 @@
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
-        private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.ColumnHeader columnHeader5;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
+        private Guna.UI2.WinForms.Guna2TextBox txbMSSV;
     }
 }

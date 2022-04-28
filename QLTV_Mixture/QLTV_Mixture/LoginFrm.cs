@@ -33,12 +33,17 @@ namespace QLTV_Mixture
 
         public static string UserName { get => userName; private set => userName = value; }
 
+        private static string userMail;
+
+        public static string UserMail { get => userMail; private set => userMail = value; }
+
         private void btnLogin_Click(object sender, EventArgs e)
         {
             if (Login(txtUser.Text, txtPass.Text))
             {
                 UserType = AccountBUS.Instance.getType(txtUser.Text, txtPass.Text);
                 UserName = AccountBUS.Instance.getName(txtUser.Text, txtPass.Text);
+                UserMail = txtUser.Text;
                 Dashboard d = new Dashboard();
                 this.Hide();
                 d.ShowDialog();

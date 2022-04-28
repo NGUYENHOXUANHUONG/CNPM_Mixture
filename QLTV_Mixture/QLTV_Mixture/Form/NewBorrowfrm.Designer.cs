@@ -1,6 +1,6 @@
 ﻿namespace QLTV_Mixture
 {
-    partial class NewBorrow
+    partial class NewBorrowfrm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NewBorrow));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NewBorrowfrm));
             this.txbMail = new Guna.UI2.WinForms.Guna2TextBox();
             this.txbSĐT = new Guna.UI2.WinForms.Guna2TextBox();
             this.txbHoten = new Guna.UI2.WinForms.Guna2TextBox();
@@ -38,7 +38,7 @@
             this.btnCapnhat = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.pbBack = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbbMSSV = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbBack)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,7 +55,7 @@
             this.txbMail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txbMail.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txbMail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txbMail.Location = new System.Drawing.Point(275, 236);
+            this.txbMail.Location = new System.Drawing.Point(85, 224);
             this.txbMail.Margin = new System.Windows.Forms.Padding(4);
             this.txbMail.Name = "txbMail";
             this.txbMail.PasswordChar = '\0';
@@ -78,7 +78,7 @@
             this.txbSĐT.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txbSĐT.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txbSĐT.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txbSĐT.Location = new System.Drawing.Point(275, 275);
+            this.txbSĐT.Location = new System.Drawing.Point(85, 263);
             this.txbSĐT.Margin = new System.Windows.Forms.Padding(4);
             this.txbSĐT.Name = "txbSĐT";
             this.txbSĐT.PasswordChar = '\0';
@@ -101,7 +101,7 @@
             this.txbHoten.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txbHoten.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txbHoten.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txbHoten.Location = new System.Drawing.Point(275, 197);
+            this.txbHoten.Location = new System.Drawing.Point(85, 185);
             this.txbHoten.Margin = new System.Windows.Forms.Padding(4);
             this.txbHoten.Name = "txbHoten";
             this.txbHoten.PasswordChar = '\0';
@@ -117,7 +117,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.BlueViolet;
-            this.label1.Location = new System.Drawing.Point(318, 73);
+            this.label1.Location = new System.Drawing.Point(128, 61);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(115, 20);
             this.label1.TabIndex = 54;
@@ -129,7 +129,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.MediumPurple;
-            this.label2.Location = new System.Drawing.Point(272, 137);
+            this.label2.Location = new System.Drawing.Point(82, 125);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(49, 17);
             this.label2.TabIndex = 60;
@@ -141,7 +141,7 @@
             this.lbBook.BackColor = System.Drawing.Color.Transparent;
             this.lbBook.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbBook.ForeColor = System.Drawing.Color.Black;
-            this.lbBook.Location = new System.Drawing.Point(327, 137);
+            this.lbBook.Location = new System.Drawing.Point(137, 125);
             this.lbBook.Name = "lbBook";
             this.lbBook.Size = new System.Drawing.Size(62, 17);
             this.lbBook.TabIndex = 61;
@@ -163,12 +163,13 @@
             this.btnCapnhat.Image = ((System.Drawing.Image)(resources.GetObject("btnCapnhat.Image")));
             this.btnCapnhat.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnCapnhat.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnCapnhat.Location = new System.Drawing.Point(256, 364);
+            this.btnCapnhat.Location = new System.Drawing.Point(68, 349);
             this.btnCapnhat.Name = "btnCapnhat";
             this.btnCapnhat.Size = new System.Drawing.Size(100, 33);
             this.btnCapnhat.TabIndex = 66;
             this.btnCapnhat.Text = "Cập nhật";
             this.btnCapnhat.TextOffset = new System.Drawing.Point(16, 0);
+            this.btnCapnhat.Click += new System.EventHandler(this.btnCapnhat_Click);
             // 
             // guna2Button1
             // 
@@ -186,12 +187,13 @@
             this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
             this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button1.ImageOffset = new System.Drawing.Point(5, 0);
-            this.guna2Button1.Location = new System.Drawing.Point(390, 364);
+            this.guna2Button1.Location = new System.Drawing.Point(202, 349);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(100, 33);
             this.guna2Button1.TabIndex = 65;
             this.guna2Button1.Text = "Hủy";
             this.guna2Button1.TextOffset = new System.Drawing.Point(10, 0);
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // pbBack
             // 
@@ -202,23 +204,26 @@
             this.pbBack.Size = new System.Drawing.Size(28, 25);
             this.pbBack.TabIndex = 74;
             this.pbBack.TabStop = false;
+            this.pbBack.Click += new System.EventHandler(this.pbBack_Click);
             // 
-            // comboBox1
+            // cbbMSSV
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(275, 169);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(200, 21);
-            this.comboBox1.TabIndex = 75;
-            this.comboBox1.Text = "MSSV";
+            this.cbbMSSV.FormattingEnabled = true;
+            this.cbbMSSV.Location = new System.Drawing.Point(85, 157);
+            this.cbbMSSV.Name = "cbbMSSV";
+            this.cbbMSSV.Size = new System.Drawing.Size(200, 21);
+            this.cbbMSSV.TabIndex = 75;
+            this.cbbMSSV.Text = "MSSV";
+            this.cbbMSSV.SelectedIndexChanged += new System.EventHandler(this.cbbMSSV_SelectedIndexChanged);
+            this.cbbMSSV.TextChanged += new System.EventHandler(this.cbbMSSV_TextChanged);
             // 
-            // NewBorrow
+            // NewBorrowfrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(750, 490);
-            this.Controls.Add(this.comboBox1);
+            this.ClientSize = new System.Drawing.Size(371, 490);
+            this.Controls.Add(this.cbbMSSV);
             this.Controls.Add(this.pbBack);
             this.Controls.Add(this.btnCapnhat);
             this.Controls.Add(this.guna2Button1);
@@ -229,7 +234,8 @@
             this.Controls.Add(this.txbHoten);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "NewBorrow";
+            this.Name = "NewBorrowfrm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "NewBorrow";
             ((System.ComponentModel.ISupportInitialize)(this.pbBack)).EndInit();
             this.ResumeLayout(false);
@@ -247,6 +253,6 @@
         private Guna.UI2.WinForms.Guna2Button btnCapnhat;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private System.Windows.Forms.PictureBox pbBack;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbbMSSV;
     }
 }

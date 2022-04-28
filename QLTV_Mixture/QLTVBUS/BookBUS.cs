@@ -93,5 +93,31 @@ namespace QLTVBUS
                 return new List<Book>();
             }
         }
+
+        //Lấy ID bằng tên sách
+        public string GetIDByName(string name)
+        {
+            try
+            {
+                return BookDAL.Instance.GetIDByName(name);
+            }
+            catch
+            {
+                return "";
+            }
+        }
+
+        //Lấy tên sách từ ID
+        public string GetNameByID(string ID)
+        {
+            try
+            {
+                return BookDAL.Instance.GetNameByID(ID);
+            }
+            catch
+            {
+                return "";
+            }
+        }
     }
 }

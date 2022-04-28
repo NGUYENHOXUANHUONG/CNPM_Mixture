@@ -125,11 +125,11 @@
     <Compile Include="LoginFrm.Designer.cs">
       <DependentUpon>LoginFrm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\NewBorrow.cs">
+    <Compile Include="Form\NewBorrowfrm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\NewBorrow.Designer.cs">
-      <DependentUpon>NewBorrow.cs</DependentUpon>
+    <Compile Include="Form\NewBorrowfrm.Designer.cs">
+      <DependentUpon>NewBorrowfrm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -169,8 +169,8 @@
     <EmbeddedResource Include="LoginFrm.resx">
       <DependentUpon>LoginFrm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\NewBorrow.resx">
-      <DependentUpon>NewBorrow.cs</DependentUpon>
+    <EmbeddedResource Include="Form\NewBorrowfrm.resx">
+      <DependentUpon>NewBorrowfrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -87,7 +87,7 @@
             this.btnExtend.Image = ((System.Drawing.Image)(resources.GetObject("btnExtend.Image")));
             this.btnExtend.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnExtend.ImageOffset = new System.Drawing.Point(20, 0);
-            this.btnExtend.Location = new System.Drawing.Point(0, 327);
+            this.btnExtend.Location = new System.Drawing.Point(0, 287);
             this.btnExtend.Name = "btnExtend";
             this.btnExtend.PressedColor = System.Drawing.Color.White;
             this.btnExtend.Size = new System.Drawing.Size(180, 40);
@@ -147,7 +147,7 @@
             this.btnAccount.Image = ((System.Drawing.Image)(resources.GetObject("btnAccount.Image")));
             this.btnAccount.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnAccount.ImageOffset = new System.Drawing.Point(20, 0);
-            this.btnAccount.Location = new System.Drawing.Point(0, 247);
+            this.btnAccount.Location = new System.Drawing.Point(0, 207);
             this.btnAccount.Name = "btnAccount";
             this.btnAccount.PressedColor = System.Drawing.Color.White;
             this.btnAccount.Size = new System.Drawing.Size(180, 40);
@@ -177,7 +177,7 @@
             this.btnBook.Image = ((System.Drawing.Image)(resources.GetObject("btnBook.Image")));
             this.btnBook.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnBook.ImageOffset = new System.Drawing.Point(20, 0);
-            this.btnBook.Location = new System.Drawing.Point(0, 287);
+            this.btnBook.Location = new System.Drawing.Point(3, 327);
             this.btnBook.Name = "btnBook";
             this.btnBook.PressedColor = System.Drawing.Color.White;
             this.btnBook.Size = new System.Drawing.Size(180, 40);
@@ -207,7 +207,7 @@
             this.btnBorrow.Image = ((System.Drawing.Image)(resources.GetObject("btnBorrow.Image")));
             this.btnBorrow.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnBorrow.ImageOffset = new System.Drawing.Point(20, 0);
-            this.btnBorrow.Location = new System.Drawing.Point(0, 207);
+            this.btnBorrow.Location = new System.Drawing.Point(0, 247);
             this.btnBorrow.Name = "btnBorrow";
             this.btnBorrow.PressedColor = System.Drawing.Color.White;
             this.btnBorrow.Size = new System.Drawing.Size(180, 40);

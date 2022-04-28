@@ -79,5 +79,25 @@ namespace QLTVDAL
 
             return list;
         }
+
+        //Lấy ID sách từ tên sách
+        public string GetIDByName(string name)
+        {
+            string query = "Select * from dbo.Book where Name = N'" + name + "'";
+
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+
+            return data.Rows[0].Field<string>(0);
+        }
+
+        //Lấy tên sách từ ID
+        public string GetNameByID(string ID)
+        {
+            string query = "Select * from dbo.Book where ID = '" + ID + "'";
+
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+
+            return data.Rows[0].Field<string>(1);
+        }
     }
 }

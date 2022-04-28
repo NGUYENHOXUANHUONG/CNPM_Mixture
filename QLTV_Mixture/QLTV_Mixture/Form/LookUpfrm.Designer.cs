@@ -236,6 +236,7 @@
             this.lvLookUp.TabIndex = 49;
             this.lvLookUp.UseCompatibleStateImageBehavior = false;
             this.lvLookUp.View = System.Windows.Forms.View.Details;
+            this.lvLookUp.DoubleClick += new System.EventHandler(this.lvLookUp_DoubleClick);
             // 
             // columnHeader1
             // 

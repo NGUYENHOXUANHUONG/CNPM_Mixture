@@ -22,6 +22,10 @@ namespace QLTV_Mixture
             ccbCate.SelectedIndex = -1;
         }
 
+        private static string selectedBookName;
+
+        public static string SelectedBookName { get => selectedBookName; private set => selectedBookName = value; }
+
         public void LoadForm()
         {
             List<LookUp> lk = LookUpBUS.Instance.show();
@@ -150,6 +154,24 @@ namespace QLTV_Mixture
             ccbCate.SelectedIndex = -1;
             ccbAuth.SelectedIndex = -1;
             LoadLsv();
+        }
+
+        private void lvLookUp_DoubleClick(object sender, EventArgs e)
+        {
+            if (lvLookUp.SelectedItems.Count > 0 && LoginFrm.UserType == 1)
+            {
+                if (lvLookUp.SelectedItems[0].SubItems[5].Text == "Không thể mượn")
+                {
+                    MessageBox.Show("Sách " + lvLookUp.SelectedItems[0].SubItems[1].Text + " không thể cho mượn", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    selectedBookName = lvLookUp.SelectedItems[0].SubItems[1].Text;
+                    NewBorrowfrm f = new NewBorrowfrm();
+                    f.ShowDialog();
+                    LoadLsv();
+                }
+            }
         }
     }
 }
