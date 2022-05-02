@@ -16,5 +16,22 @@ namespace QLTV_Mixture
         {
             InitializeComponent();
         }
+        private Form activeForm = null;
+
+        private void btnTaomoi_Click(object sender, EventArgs e)
+        {
+            ChangePass ct = new ChangePass();
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = ct;
+            ct.TopLevel = false;
+            ct.FormBorderStyle = FormBorderStyle.None;
+            ct.Dock = DockStyle.Fill;
+            panel1.Controls.Add(ct);
+            panel1.Tag = ct;
+            ct.BringToFront();
+            //ct.ButtonClicked += new EventHandler(ob_ButtonClicked);
+            ct.Show();
+        }
     }
 }

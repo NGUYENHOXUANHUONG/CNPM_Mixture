@@ -62,7 +62,14 @@ namespace QLTV_Mixture
         // mở form mượn khi nhấp vào btn Borrow
         private void btnBorrow_Click(object sender, EventArgs e)
         {
-            OpenFrm(new QLTV_Mixture.Borrow());
+            if (LoginFrm.UserType == 1)
+            {
+                OpenFrm(new QLTV_Mixture.Borrow());
+            }
+            else
+            {
+                OpenFrm(new QLTV_Mixture.Borrow_St());
+            }
         }
 
         // mở form sách khi nhấp vào btn Book

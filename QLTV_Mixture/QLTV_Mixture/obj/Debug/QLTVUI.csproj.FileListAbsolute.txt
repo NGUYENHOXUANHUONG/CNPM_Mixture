@@ -114,3 +114,7 @@ C:\Users\HP\OneDrive - Hochiminh City University of Education\CNPM_Mixture\QLTV_
 D:\Baitap\nmcnpm\CNPM_Mixture\QLTV_Mixture\QLTV_Mixture\obj\Debug\QLTV_Mixture.Account_St.resources
 D:\Baitap\nmcnpm\CNPM_Mixture\QLTV_Mixture\QLTV_Mixture\obj\Debug\QLTV_Mixture.ChangePass.resources
 D:\Baitap\nmcnpm\CNPM_Mixture\QLTV_Mixture\QLTV_Mixture\obj\Debug\QLTV_Mixture.NewBorrowfrm.resources
+C:\Users\HP\OneDrive - Hochiminh City University of Education\CNPM_Mixture\QLTV_Mixture\QLTV_Mixture\obj\Debug\QLTV_Mixture.Account_St.resources
+C:\Users\HP\OneDrive - Hochiminh City University of Education\CNPM_Mixture\QLTV_Mixture\QLTV_Mixture\obj\Debug\QLTV_Mixture.ChangePass.resources
+C:\Users\HP\OneDrive - Hochiminh City University of Education\CNPM_Mixture\QLTV_Mixture\QLTV_Mixture\obj\Debug\QLTV_Mixture.NewBorrowfrm.resources
+C:\Users\HP\OneDrive - Hochiminh City University of Education\CNPM_Mixture\QLTV_Mixture\QLTV_Mixture\obj\Debug\QLTV_Mixture.Borrow_St.resources

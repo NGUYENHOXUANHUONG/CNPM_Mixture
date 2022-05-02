@@ -49,6 +49,7 @@
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numAmount)).BeginInit();
             this.SuspendLayout();
@@ -57,6 +58,7 @@
             // 
             this.panel1.BackgroundImage = global::QLTV_Mixture.Properties.Resources.umhum;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.cbbAuth);
             this.panel1.Controls.Add(this.cbbCate);
             this.panel1.Controls.Add(this.btnThem);
@@ -88,7 +90,7 @@
             this.cbbAuth.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.cbbAuth.ForeColor = System.Drawing.Color.Black;
             this.cbbAuth.ItemHeight = 30;
-            this.cbbAuth.Location = new System.Drawing.Point(530, 128);
+            this.cbbAuth.Location = new System.Drawing.Point(530, 176);
             this.cbbAuth.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbbAuth.Name = "cbbAuth";
             this.cbbAuth.Size = new System.Drawing.Size(200, 36);
@@ -107,7 +109,7 @@
             this.cbbCate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.cbbCate.ForeColor = System.Drawing.Color.Black;
             this.cbbCate.ItemHeight = 30;
-            this.cbbCate.Location = new System.Drawing.Point(530, 168);
+            this.cbbCate.Location = new System.Drawing.Point(530, 216);
             this.cbbCate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbbCate.Name = "cbbCate";
             this.cbbCate.Size = new System.Drawing.Size(200, 36);
@@ -151,7 +153,7 @@
             this.txbIDsach.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.txbIDsach.ForeColor = System.Drawing.Color.Black;
             this.txbIDsach.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txbIDsach.Location = new System.Drawing.Point(530, 53);
+            this.txbIDsach.Location = new System.Drawing.Point(530, 101);
             this.txbIDsach.Name = "txbIDsach";
             this.txbIDsach.PasswordChar = '\0';
             this.txbIDsach.PlaceholderForeColor = System.Drawing.Color.Gray;
@@ -175,7 +177,7 @@
             this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(530, 209);
+            this.guna2TextBox1.Location = new System.Drawing.Point(530, 257);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.Gray;
@@ -220,7 +222,7 @@
             this.cbStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.cbStatus.ForeColor = System.Drawing.Color.Black;
             this.cbStatus.ItemHeight = 30;
-            this.cbStatus.Location = new System.Drawing.Point(661, 299);
+            this.cbStatus.Location = new System.Drawing.Point(661, 347);
             this.cbStatus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbStatus.Name = "cbStatus";
             this.cbStatus.Size = new System.Drawing.Size(65, 36);
@@ -235,7 +237,7 @@
             this.numAmount.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.numAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.numAmount.ForeColor = System.Drawing.Color.Black;
-            this.numAmount.Location = new System.Drawing.Point(661, 253);
+            this.numAmount.Location = new System.Drawing.Point(661, 301);
             this.numAmount.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.numAmount.Name = "numAmount";
             this.numAmount.Size = new System.Drawing.Size(69, 33);
@@ -248,7 +250,7 @@
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(564, 312);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(564, 360);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(66, 18);
             this.guna2HtmlLabel2.TabIndex = 67;
@@ -258,7 +260,7 @@
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(564, 260);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(564, 308);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(59, 18);
             this.guna2HtmlLabel1.TabIndex = 66;
@@ -302,7 +304,7 @@
             this.txbTensach.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.txbTensach.ForeColor = System.Drawing.Color.Black;
             this.txbTensach.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txbTensach.Location = new System.Drawing.Point(530, 90);
+            this.txbTensach.Location = new System.Drawing.Point(530, 138);
             this.txbTensach.Name = "txbTensach";
             this.txbTensach.PasswordChar = '\0';
             this.txbTensach.PlaceholderForeColor = System.Drawing.Color.Gray;
@@ -369,6 +371,18 @@
             this.columnHeader6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnHeader6.Width = 100;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.MediumPurple;
+            this.label3.Location = new System.Drawing.Point(534, 53);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(190, 26);
+            this.label3.TabIndex = 87;
+            this.label3.Text = "QUẢN LÝ SÁCH";
+            // 
             // Book
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -407,5 +421,6 @@
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.ColumnHeader columnHeader5;
         private System.Windows.Forms.ColumnHeader columnHeader6;
+        private System.Windows.Forms.Label label3;
     }
 }

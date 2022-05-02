@@ -143,6 +143,8 @@
             // 
             // panel3
             // 
+            this.panel3.BackgroundImage = global::QLTV_Mixture.Properties.Resources.umhum;
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel3.Controls.Add(this.linkLabel1);
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.label3);
@@ -173,6 +175,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(49, 89);
@@ -184,6 +187,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(49, 21);
@@ -221,6 +225,7 @@
             // 
             // txtPass
             // 
+            this.txtPass.BackColor = System.Drawing.Color.Transparent;
             this.txtPass.BorderColor = System.Drawing.Color.Silver;
             this.txtPass.BorderThickness = 2;
             this.txtPass.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -229,7 +234,6 @@
             this.txtPass.DisabledState.FillColor = System.Drawing.Color.White;
             this.txtPass.DisabledState.ForeColor = System.Drawing.Color.Black;
             this.txtPass.DisabledState.PlaceholderForeColor = System.Drawing.Color.White;
-            this.txtPass.FillColor = System.Drawing.SystemColors.Control;
             this.txtPass.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(21)))), ((int)(((byte)(255)))));
             this.txtPass.FocusedState.FillColor = System.Drawing.Color.White;
             this.txtPass.FocusedState.ForeColor = System.Drawing.Color.Black;
@@ -248,6 +252,7 @@
             // 
             // txtUser
             // 
+            this.txtUser.BackColor = System.Drawing.Color.Transparent;
             this.txtUser.BorderColor = System.Drawing.Color.Silver;
             this.txtUser.BorderThickness = 2;
             this.txtUser.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -256,7 +261,6 @@
             this.txtUser.DisabledState.FillColor = System.Drawing.Color.White;
             this.txtUser.DisabledState.ForeColor = System.Drawing.Color.Black;
             this.txtUser.DisabledState.PlaceholderForeColor = System.Drawing.Color.White;
-            this.txtUser.FillColor = System.Drawing.SystemColors.Control;
             this.txtUser.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(21)))), ((int)(((byte)(255)))));
             this.txtUser.FocusedState.FillColor = System.Drawing.Color.White;
             this.txtUser.FocusedState.ForeColor = System.Drawing.Color.Black;

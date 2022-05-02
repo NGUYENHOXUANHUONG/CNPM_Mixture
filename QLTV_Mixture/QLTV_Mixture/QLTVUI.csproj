@@ -53,6 +53,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Borrow_St.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Borrow_St.Designer.cs">
+      <DependentUpon>Borrow_St.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form\Account_St.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,6 +139,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Borrow_St.resx">
+      <DependentUpon>Borrow_St.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form\Account_St.resx">
       <DependentUpon>Account_St.cs</DependentUpon>
     </EmbeddedResource>

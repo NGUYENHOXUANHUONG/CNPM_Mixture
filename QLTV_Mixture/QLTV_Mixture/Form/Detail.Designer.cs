@@ -47,6 +47,7 @@
             this.btGiaHan = new Guna.UI2.WinForms.Guna2Button();
             this.btCancel = new Guna.UI2.WinForms.Guna2Button();
             this.lbTre = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -55,7 +56,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.MediumPurple;
-            this.label1.Location = new System.Drawing.Point(92, 66);
+            this.label1.Location = new System.Drawing.Point(128, 102);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 17);
             this.label1.TabIndex = 16;
@@ -66,7 +67,7 @@
             this.lbMSSV.AutoSize = true;
             this.lbMSSV.BackColor = System.Drawing.Color.Transparent;
             this.lbMSSV.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMSSV.Location = new System.Drawing.Point(159, 66);
+            this.lbMSSV.Location = new System.Drawing.Point(195, 102);
             this.lbMSSV.Name = "lbMSSV";
             this.lbMSSV.Size = new System.Drawing.Size(40, 17);
             this.lbMSSV.TabIndex = 17;
@@ -77,7 +78,7 @@
             this.lbName.AutoSize = true;
             this.lbName.BackColor = System.Drawing.Color.Transparent;
             this.lbName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbName.Location = new System.Drawing.Point(159, 112);
+            this.lbName.Location = new System.Drawing.Point(195, 148);
             this.lbName.Name = "lbName";
             this.lbName.Size = new System.Drawing.Size(28, 17);
             this.lbName.TabIndex = 19;
@@ -89,7 +90,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.MediumPurple;
-            this.label4.Location = new System.Drawing.Point(92, 112);
+            this.label4.Location = new System.Drawing.Point(128, 148);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(41, 17);
             this.label4.TabIndex = 18;
@@ -100,7 +101,7 @@
             this.lbMail.AutoSize = true;
             this.lbMail.BackColor = System.Drawing.Color.Transparent;
             this.lbMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMail.Location = new System.Drawing.Point(371, 66);
+            this.lbMail.Location = new System.Drawing.Point(407, 102);
             this.lbMail.Name = "lbMail";
             this.lbMail.Size = new System.Drawing.Size(33, 17);
             this.lbMail.TabIndex = 21;
@@ -112,7 +113,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.MediumPurple;
-            this.label6.Location = new System.Drawing.Point(304, 66);
+            this.label6.Location = new System.Drawing.Point(340, 102);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(42, 17);
             this.label6.TabIndex = 20;
@@ -123,7 +124,7 @@
             this.lbNumber.AutoSize = true;
             this.lbNumber.BackColor = System.Drawing.Color.Transparent;
             this.lbNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbNumber.Location = new System.Drawing.Point(371, 112);
+            this.lbNumber.Location = new System.Drawing.Point(407, 148);
             this.lbNumber.Name = "lbNumber";
             this.lbNumber.Size = new System.Drawing.Size(27, 17);
             this.lbNumber.TabIndex = 23;
@@ -135,7 +136,7 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.MediumPurple;
-            this.label8.Location = new System.Drawing.Point(304, 112);
+            this.label8.Location = new System.Drawing.Point(340, 148);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(44, 17);
             this.label8.TabIndex = 22;
@@ -147,7 +148,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.MediumPurple;
-            this.label2.Location = new System.Drawing.Point(113, 166);
+            this.label2.Location = new System.Drawing.Point(130, 202);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(134, 17);
             this.label2.TabIndex = 24;
@@ -158,7 +159,7 @@
             this.lbbookname.AutoSize = true;
             this.lbbookname.BackColor = System.Drawing.Color.Transparent;
             this.lbbookname.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbbookname.Location = new System.Drawing.Point(268, 166);
+            this.lbbookname.Location = new System.Drawing.Point(283, 202);
             this.lbbookname.Name = "lbbookname";
             this.lbbookname.Size = new System.Drawing.Size(142, 17);
             this.lbbookname.TabIndex = 25;
@@ -170,7 +171,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.MediumPurple;
-            this.label5.Location = new System.Drawing.Point(113, 214);
+            this.label5.Location = new System.Drawing.Point(130, 250);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(94, 17);
             this.label5.TabIndex = 26;
@@ -181,7 +182,7 @@
             this.lbNgayMuon.AutoSize = true;
             this.lbNgayMuon.BackColor = System.Drawing.Color.Transparent;
             this.lbNgayMuon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbNgayMuon.Location = new System.Drawing.Point(268, 214);
+            this.lbNgayMuon.Location = new System.Drawing.Point(283, 250);
             this.lbNgayMuon.Name = "lbNgayMuon";
             this.lbNgayMuon.Size = new System.Drawing.Size(78, 17);
             this.lbNgayMuon.TabIndex = 27;
@@ -193,7 +194,7 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.MediumPurple;
-            this.label9.Location = new System.Drawing.Point(115, 258);
+            this.label9.Location = new System.Drawing.Point(130, 294);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(62, 17);
             this.label9.TabIndex = 28;
@@ -204,7 +205,7 @@
             this.lbNgayTra.AutoSize = true;
             this.lbNgayTra.BackColor = System.Drawing.Color.Transparent;
             this.lbNgayTra.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbNgayTra.Location = new System.Drawing.Point(268, 258);
+            this.lbNgayTra.Location = new System.Drawing.Point(283, 294);
             this.lbNgayTra.Name = "lbNgayTra";
             this.lbNgayTra.Size = new System.Drawing.Size(55, 17);
             this.lbNgayTra.TabIndex = 29;
@@ -223,15 +224,16 @@
             this.btnTra.FillColor = System.Drawing.Color.White;
             this.btnTra.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.btnTra.ForeColor = System.Drawing.Color.Black;
+            this.btnTra.Image = ((System.Drawing.Image)(resources.GetObject("btnTra.Image")));
             this.btnTra.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnTra.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnTra.Location = new System.Drawing.Point(242, 365);
+            this.btnTra.Location = new System.Drawing.Point(174, 401);
             this.btnTra.Name = "btnTra";
-            this.btnTra.Size = new System.Drawing.Size(81, 33);
+            this.btnTra.Size = new System.Drawing.Size(99, 33);
             this.btnTra.TabIndex = 54;
             this.btnTra.Text = "Trả";
             this.btnTra.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnTra.TextOffset = new System.Drawing.Point(16, 0);
+            this.btnTra.TextOffset = new System.Drawing.Point(10, 0);
             this.btnTra.Click += new System.EventHandler(this.btnTra_Click);
             // 
             // btGiaHan
@@ -247,15 +249,16 @@
             this.btGiaHan.FillColor = System.Drawing.Color.White;
             this.btGiaHan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.btGiaHan.ForeColor = System.Drawing.Color.Black;
+            this.btGiaHan.Image = ((System.Drawing.Image)(resources.GetObject("btGiaHan.Image")));
             this.btGiaHan.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btGiaHan.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btGiaHan.Location = new System.Drawing.Point(343, 365);
+            this.btGiaHan.Location = new System.Drawing.Point(294, 401);
             this.btGiaHan.Name = "btGiaHan";
             this.btGiaHan.Size = new System.Drawing.Size(100, 33);
             this.btGiaHan.TabIndex = 55;
             this.btGiaHan.Text = "Gia hạn";
             this.btGiaHan.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btGiaHan.TextOffset = new System.Drawing.Point(16, 0);
+            this.btGiaHan.TextOffset = new System.Drawing.Point(5, 0);
             this.btGiaHan.Click += new System.EventHandler(this.btGiaHan_Click);
             // 
             // btCancel
@@ -274,7 +277,7 @@
             this.btCancel.Image = ((System.Drawing.Image)(resources.GetObject("btCancel.Image")));
             this.btCancel.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btCancel.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btCancel.Location = new System.Drawing.Point(466, 445);
+            this.btCancel.Location = new System.Drawing.Point(457, 445);
             this.btCancel.Name = "btCancel";
             this.btCancel.Size = new System.Drawing.Size(100, 33);
             this.btCancel.TabIndex = 66;
@@ -285,14 +288,27 @@
             // lbTre
             // 
             this.lbTre.AutoSize = true;
+            this.lbTre.BackColor = System.Drawing.Color.Transparent;
             this.lbTre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTre.ForeColor = System.Drawing.Color.Red;
-            this.lbTre.Location = new System.Drawing.Point(158, 322);
+            this.lbTre.Location = new System.Drawing.Point(231, 358);
             this.lbTre.Name = "lbTre";
             this.lbTre.Size = new System.Drawing.Size(107, 20);
             this.lbTre.TabIndex = 67;
             this.lbTre.Text = "Đã trễ hạn trả";
             this.lbTre.Visible = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.MediumPurple;
+            this.label3.Location = new System.Drawing.Point(50, 33);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(469, 26);
+            this.label3.TabIndex = 87;
+            this.label3.Text = "CHI TIẾT THÔNG TIN SÁCH ĐANG MƯỢN";
             // 
             // Detail
             // 
@@ -301,6 +317,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(569, 490);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.lbTre);
             this.Controls.Add(this.btCancel);
             this.Controls.Add(this.btGiaHan);
@@ -347,5 +364,6 @@
         private Guna.UI2.WinForms.Guna2Button btGiaHan;
         private Guna.UI2.WinForms.Guna2Button btCancel;
         private System.Windows.Forms.Label lbTre;
+        private System.Windows.Forms.Label label3;
     }
 }

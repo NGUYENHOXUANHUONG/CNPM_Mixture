@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Account_St));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnTaomoi = new Guna.UI2.WinForms.Guna2Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -47,7 +48,6 @@
             this.lbMSSV = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnTaomoi = new Guna.UI2.WinForms.Guna2Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -67,6 +67,31 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(750, 490);
             this.panel1.TabIndex = 0;
+            // 
+            // btnTaomoi
+            // 
+            this.btnTaomoi.BackColor = System.Drawing.Color.Transparent;
+            this.btnTaomoi.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(21)))), ((int)(((byte)(255)))));
+            this.btnTaomoi.BorderRadius = 10;
+            this.btnTaomoi.BorderThickness = 2;
+            this.btnTaomoi.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnTaomoi.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnTaomoi.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnTaomoi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnTaomoi.FillColor = System.Drawing.Color.White;
+            this.btnTaomoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.btnTaomoi.ForeColor = System.Drawing.Color.Black;
+            this.btnTaomoi.Image = ((System.Drawing.Image)(resources.GetObject("btnTaomoi.Image")));
+            this.btnTaomoi.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnTaomoi.ImageOffset = new System.Drawing.Point(5, 0);
+            this.btnTaomoi.Location = new System.Drawing.Point(576, 173);
+            this.btnTaomoi.Name = "btnTaomoi";
+            this.btnTaomoi.Size = new System.Drawing.Size(134, 33);
+            this.btnTaomoi.TabIndex = 62;
+            this.btnTaomoi.Text = "Đổi mật khẩu";
+            this.btnTaomoi.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnTaomoi, "Đổi mật khẩu");
+            this.btnTaomoi.Click += new System.EventHandler(this.btnTaomoi_Click);
             // 
             // groupBox2
             // 
@@ -237,37 +262,13 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.BlueViolet;
-            this.label1.Location = new System.Drawing.Point(276, 28);
+            this.label1.Location = new System.Drawing.Point(242, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(198, 20);
+            this.label1.Size = new System.Drawing.Size(266, 26);
             this.label1.TabIndex = 59;
             this.label1.Text = "TÀI KHOẢN SINH VIÊN";
-            // 
-            // btnTaomoi
-            // 
-            this.btnTaomoi.BackColor = System.Drawing.Color.Transparent;
-            this.btnTaomoi.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(21)))), ((int)(((byte)(255)))));
-            this.btnTaomoi.BorderRadius = 10;
-            this.btnTaomoi.BorderThickness = 2;
-            this.btnTaomoi.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnTaomoi.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnTaomoi.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnTaomoi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnTaomoi.FillColor = System.Drawing.Color.White;
-            this.btnTaomoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.btnTaomoi.ForeColor = System.Drawing.Color.Black;
-            this.btnTaomoi.Image = ((System.Drawing.Image)(resources.GetObject("btnTaomoi.Image")));
-            this.btnTaomoi.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnTaomoi.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnTaomoi.Location = new System.Drawing.Point(576, 173);
-            this.btnTaomoi.Name = "btnTaomoi";
-            this.btnTaomoi.Size = new System.Drawing.Size(134, 33);
-            this.btnTaomoi.TabIndex = 62;
-            this.btnTaomoi.Text = "Đổi mật khẩu";
-            this.btnTaomoi.TextOffset = new System.Drawing.Point(16, 0);
-            this.toolTip1.SetToolTip(this.btnTaomoi, "Đổi mật khẩu");
             // 
             // Account_St
             // 
