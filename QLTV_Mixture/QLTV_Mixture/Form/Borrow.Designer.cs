@@ -34,10 +34,10 @@
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txbMSSV = new Guna.UI2.WinForms.Guna2TextBox();
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txbMSSV = new Guna.UI2.WinForms.Guna2TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -73,6 +73,7 @@
             this.lvDSmuon.TabIndex = 49;
             this.lvDSmuon.UseCompatibleStateImageBehavior = false;
             this.lvDSmuon.View = System.Windows.Forms.View.Details;
+            this.lvDSmuon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lvDSmuon_MouseDoubleClick);
             // 
             // columnHeader1
             // 
@@ -88,6 +89,16 @@
             // 
             this.columnHeader3.Text = "Mail";
             this.columnHeader3.Width = 163;
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "SĐT";
+            this.columnHeader4.Width = 150;
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Sách";
+            this.columnHeader5.Width = 335;
             // 
             // guna2HtmlLabel3
             // 
@@ -124,16 +135,6 @@
             this.txbMSSV.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txbMSSV.TabIndex = 59;
             this.txbMSSV.TextChanged += new System.EventHandler(this.txbMSSV_TextChanged);
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "SĐT";
-            this.columnHeader4.Width = 150;
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "Sách";
-            this.columnHeader5.Width = 335;
             // 
             // Borrow
             // 

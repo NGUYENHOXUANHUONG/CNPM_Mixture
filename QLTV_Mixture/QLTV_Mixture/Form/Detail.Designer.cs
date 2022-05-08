@@ -56,7 +56,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.MediumPurple;
-            this.label1.Location = new System.Drawing.Point(128, 102);
+            this.label1.Location = new System.Drawing.Point(71, 106);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 17);
             this.label1.TabIndex = 16;
@@ -67,7 +67,7 @@
             this.lbMSSV.AutoSize = true;
             this.lbMSSV.BackColor = System.Drawing.Color.Transparent;
             this.lbMSSV.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMSSV.Location = new System.Drawing.Point(195, 102);
+            this.lbMSSV.Location = new System.Drawing.Point(138, 106);
             this.lbMSSV.Name = "lbMSSV";
             this.lbMSSV.Size = new System.Drawing.Size(40, 17);
             this.lbMSSV.TabIndex = 17;
@@ -78,7 +78,7 @@
             this.lbName.AutoSize = true;
             this.lbName.BackColor = System.Drawing.Color.Transparent;
             this.lbName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbName.Location = new System.Drawing.Point(195, 148);
+            this.lbName.Location = new System.Drawing.Point(138, 152);
             this.lbName.Name = "lbName";
             this.lbName.Size = new System.Drawing.Size(28, 17);
             this.lbName.TabIndex = 19;
@@ -90,7 +90,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.MediumPurple;
-            this.label4.Location = new System.Drawing.Point(128, 148);
+            this.label4.Location = new System.Drawing.Point(71, 152);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(41, 17);
             this.label4.TabIndex = 18;
@@ -101,7 +101,7 @@
             this.lbMail.AutoSize = true;
             this.lbMail.BackColor = System.Drawing.Color.Transparent;
             this.lbMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMail.Location = new System.Drawing.Point(407, 102);
+            this.lbMail.Location = new System.Drawing.Point(350, 106);
             this.lbMail.Name = "lbMail";
             this.lbMail.Size = new System.Drawing.Size(33, 17);
             this.lbMail.TabIndex = 21;
@@ -113,7 +113,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.MediumPurple;
-            this.label6.Location = new System.Drawing.Point(340, 102);
+            this.label6.Location = new System.Drawing.Point(283, 106);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(42, 17);
             this.label6.TabIndex = 20;
@@ -124,7 +124,7 @@
             this.lbNumber.AutoSize = true;
             this.lbNumber.BackColor = System.Drawing.Color.Transparent;
             this.lbNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbNumber.Location = new System.Drawing.Point(407, 148);
+            this.lbNumber.Location = new System.Drawing.Point(350, 152);
             this.lbNumber.Name = "lbNumber";
             this.lbNumber.Size = new System.Drawing.Size(27, 17);
             this.lbNumber.TabIndex = 23;
@@ -136,7 +136,7 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.MediumPurple;
-            this.label8.Location = new System.Drawing.Point(340, 148);
+            this.label8.Location = new System.Drawing.Point(283, 152);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(44, 17);
             this.label8.TabIndex = 22;

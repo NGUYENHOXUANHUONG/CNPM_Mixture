@@ -74,22 +74,15 @@ namespace QLTV_Mixture
             FillLsv();
         }
 
-        private void lvDSmuon_DoubleClick(object sender, MouseEventArgs e)
+        private void lvDSmuon_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-            string MSSV = lvDSmuon.SelectedItems[0].SubItems[1].Text;
-            string HoTen = lvDSmuon.SelectedItems[0].SubItems[2].Text;
-            string Mail = lvDSmuon.SelectedItems[0].SubItems[3].Text;
-            string SĐT = lvDSmuon.SelectedItems[0].SubItems[4].Text;
-            string TenSach = lvDSmuon.SelectedItems[0].SubItems[5].Text;
-            if (lvDSmuon.SelectedItems.Count == 1)
+            if (lvDSmuon.SelectedItems.Count > 0)
             {
-                string select_MSSV = lvDSmuon.SelectedItems[0].Text;
-                
-
-                
+                selectedBorrow = brs[lvDSmuon.SelectedItems[0].Index];
+                Detail f = new Detail();
+                f.ShowDialog();
+                FillLsv();
             }
-
         }
-        
     }
 }
